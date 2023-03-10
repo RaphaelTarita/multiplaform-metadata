@@ -125,7 +125,7 @@ println(metadata.doubles["stringKey"] * 2) // 6.28
 Keys can always be re-assigned to new values, and those new values may be of a different type. In this example, we
 re-assign `stringKey` (which was previously associated with a `String`) to the value `3.14` (which is a `Double`). As
 we've seen previously, if we tried to access `metadata.strings["stringKey"]` _now_, an exception would be thrown because
-there's no `String` associated to `stringKey`.I Instead, we access the `doubles` subset, which now contains this key. We
+there's no `String` associated to `stringKey`. Instead, we access the `doubles` subset, which now contains this key. We
 can also interact with the result in a statically typed fashion (note multiplication, which would not be possible
 if `stringKey` was still a `String`).
 
